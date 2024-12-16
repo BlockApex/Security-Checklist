@@ -12,6 +12,7 @@
 10. Detect and block usage on jailbroken or rooted devices to prevent exploitation.
 11. Disable custom keyboards during sensitive data entry to protect user input.
 12. Use secure accessibility attributes for iOS keychain data to prevent unauthorized access.
+13. Ensure that any sensitive information, such as wallet private keys are not being logged. 
 
 ## Desktop-Based Wallets (Electron-Based)
 
@@ -30,6 +31,7 @@
 13. Assess regex and domain validation in navigation logic to prevent phishing and XSS attacks.
 14. Use tools like Electronegativity or Node.js scanners to identify misconfigurations and security issues in the Electron app.
 15. Validate the deployment process to ensure no debug or unnecessary code is included in the production build and third-party libraries are free of known vulnerabilities.
+16. Ensure that any sensitive information, such as wallet private keys are not being logged. 
 
 
 ## Extension-Based Wallets
@@ -46,7 +48,7 @@
 10. Validate that the extension resists tampering, such as code modifications or unauthorized installations.
 11. Test APIs for proper input validation, rate limiting, and secure data handling.
 12. Assess the extension for vulnerabilities in its core components, such as content scripts, background scripts, and native binaries.
-
+13. Ensure that any sensitive information, such as wallet private keys are not being logged. 
 
 
 
@@ -66,7 +68,8 @@
 12. Ensure proper logging, secure data storage, and incident response mechanisms are in place.
 13. Test APIs for broken object-level and function-level authorization, excessive data exposure, and improper asset management.
 14. Check for vulnerabilities like XSS, clickjacking, open redirects, and HTML injection.
-15. Verify security headers, CORS configurations, CSRF protections, and cookie attributes where applicable.
+15. Verify security headers, CORS configurations, CSRF protection, and cookie attributes where applicable.
 16. Validate the application against all OWASP Top 10 vulnerabilities and ensure comprehensive coverage.
 17. Mitigate risks of phishing attacks and malicious JavaScript injection specific to web wallets.
+18. Ensure that any sensitive information, such as wallet private keys are not being logged. 
 
