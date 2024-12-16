@@ -45,7 +45,7 @@
 9. Confirm the extension cannot be exploited to compromise the browser or host system.
 10. Validate that the extension resists tampering, such as code modifications or unauthorized installations.
 11. Test APIs for proper input validation, rate limiting, and secure data handling.
-12.Assess the extension for vulnerabilities in its core components, such as content scripts, background scripts, and native binaries.
+12. Assess the extension for vulnerabilities in its core components, such as content scripts, background scripts, and native binaries.
 
 
 
