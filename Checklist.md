@@ -62,7 +62,7 @@
 8. Assess access control to prevent privilege escalation, IDOR, and multi-step process vulnerabilities.
 9. Detect security misconfigurations, including verbose errors, default credentials, unnecessary services, and unpatched flaws.
 10. Test for insecure deserialization vulnerabilities and improper handling of serialized data.
-11.Identify and mitigate risks from components with known vulnerabilities in the application stack.
+11. Identify and mitigate risks from components with known vulnerabilities in the application stack.
 12. Ensure proper logging, secure data storage, and incident response mechanisms are in place.
 13. Test APIs for broken object-level and function-level authorization, excessive data exposure, and improper asset management.
 14. Check for vulnerabilities like XSS, clickjacking, open redirects, and HTML injection.
